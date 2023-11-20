@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-a{
+nav a{
     text-decoration: none;
+    color: black;
 }
 
 header{
@@ -101,7 +102,7 @@ header nav #right-button{
 
 section{
     /* display: flex; */
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     padding-block: 20px;
     /* background-color: black; */
 }
@@ -208,14 +209,45 @@ footer{
     padding: 20px;
 }
 
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
 footer ul li{
     list-style-type: none;
-    color: white;
+    
+}
+
+
+footer h4{
+    color: #7189DA;
+    font-size: 120%;
+    max-width: 100px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
 }
 
 footer .container{
     display: flex;
     /* justify-content: space-between; */
+}
+
+footer #aside{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+#ita{
+    height: 5%;
+    width: 5%;
 }
 
 footer .container > div{
@@ -229,4 +261,16 @@ footer .container>div:first-child{
 footer .footer-login{
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+footer .footer-login a{
+    text-decoration: none;
+    color: white;
+    background-color:#8fa0e1 ;
+    min-width: 15%;
+    padding: 1%;
+    border-radius: 4em / 5em;
+    text-align: center;
 }
