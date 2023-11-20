@@ -143,25 +143,74 @@ section .img-text .section-text{
 }
 
 section.discord-services:nth-child(even){
-    background-color: lightgray;
+    background-color: lightgrey;
+
 }
 
 section.discord-services:nth-child(even) .img-text figure{
     order: 1;
 }
 
-section.discord-services:last-child{
+.discord-services{
+     padding-block: 50px;
+}
+
+.container-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+
+}
+
+.container-bottom h3{
+    
+    font-size: 180%;
+ 
+}
+
+.container-bottom p{
+    
+    font-size: 120%;
+    line-height: 120%;
     text-align: center;
 }
 
+#img-baseline{
+    width: 80%;
+}
+
+.container-bottom h5{
+    min-height: 40px;
+    min-width: 300px;
+    font-size: 150%;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+}
+
+.container-bottom span{
+    background-color: #8fa0e1;
+    font-size: 130%;
+    color: white;
+    min-width: 20%;
+    padding: 2%;
+    border-radius: 4em / 5em;
+    text-align: center;
+}
 
 footer{
-    background-color: #121212;
+    background-color: #23272a;
     color: white;
+    padding: 20px;
 }
 
 footer ul li{
     list-style-type: none;
+    color: white;
 }
 
 footer .container{
